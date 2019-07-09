@@ -1,0 +1,461 @@
+body {
+  margin-top:-80px;
+  width:100%;
+  height: 100%;
+  padding: 0;
+  font-family: sans-serif;
+  background: rgb(255,179,5);
+background: linear-gradient(90deg, rgba(255,179,5,1) 13%, rgba(255,125,19,1) 39%, rgba(255,91,28,1) 75%);
+}
+.img-position {
+  
+  text-align:center;
+  display: flex;
+  justify-content: center;
+  margin-top:12%;
+}
+img {
+  position: relative;
+  width: 370px;
+}
+.partner {
+  text-align: center;
+  margin-left: 107%;
+  margin-top: -7%;
+}
+.work {
+  -ms-flex-order: inherit;
+  order: inherit;
+  margin-left: 107%;
+  margin-top: -6%;
+}
+.activites {
+  margin-right: 53px;
+  margin-top: 11%;
+}
+.about {
+  margin-left: 467px;
+  margin-top: -31px;
+  text-align: center;
+  -ms-flex-order: -1;
+  order: -1;
+}
+.services {
+  margin-top: 73px;
+  margin-right: 19px;
+}
+.btn-services {
+  position: absolute;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+button {
+  width:200px;
+  height:45px;
+}
+.social-icons {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-top:-27px;
+}
+img.facebook-image {
+  width: 300px;
+  height: 80px;
+  position: relative;
+}
+img.youtube-image {
+  width: 300px;
+  height: 80px;
+  position: relative;
+}
+.facebook {
+  display: inline-block;
+  justify-content: space-evenly;
+  margin-left: 290px;
+}
+.youtube {
+  display: inline-block;
+  justify-content: space-evenly;
+  margin-left: 127px;
+}
+.extra-text {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+.edumonk {
+  text-align: center;
+  font-size: 65px;
+  color: white;
+}
+/* @media (max-width:1030px){
+  .container {
+    max-width: 960px;
+    margin-left: 53px;
+  }
+  body{
+    margin-top: 130px;
+  }
+  .btn-group>.btn:first-child {
+    margin-left: 0;
+    font-size: 13px;
+    width: 115px;
+    height: 45px;
+}
+  .activites {
+    margin-right: -54px;
+    margin-top: 11%;
+}
+  .partner {
+    text-align: center;
+    margin-left: 101%;
+    margin-top: -11%;
+}
+.work {
+  order: inherit;
+  margin-left: 103%;
+  margin-top: -11%;
+}
+.services {
+  margin-top: 32px;
+  margin-right: -29px;
+}
+.about {
+  margin-left: 297px;
+  margin-top: -34px;
+  text-align: center;
+  -ms-flex-order: -1;
+  order: -1;
+}
+.img-position {
+    margin-top: 12%;
+    margin-right: 0px;
+}
+img {
+  position: relative;
+    width: 195px;
+}
+.social-icons {
+  margin-top: 27px;
+  text-align: center;
+  margin-left: 119px;
+}
+.youtube, .facebook{
+  margin-left: 108px;
+}
+.texting {
+  margin-right: 30px;
+}
+img.youtube-image {
+  width: 197px;
+    height: 50px;
+    position: relative;
+}
+img.facebook-image {
+  width: 197px;
+  height: 50px;
+  position: relative;
+  margin-top: 10px;
+}
+.extra-text {
+  text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.edumonk {
+  text-align: center;
+    font-size: 82px;
+    color: white;
+}
+} */
+@media (max-width:800px){
+  body{
+    margin-top: 130px;
+  }
+  .btn-group>.btn:first-child {
+    margin-left: 0;
+    font-size: 13px;
+    width: 115px;
+    height: 45px;
+}
+  .activites {
+    margin-right: -54px;
+    margin-top: 11%;
+}
+  .partner {
+    text-align: center;
+    margin-left: 101%;
+    margin-top: -11%;
+}
+.work {
+  order: inherit;
+  margin-left: 103%;
+  margin-top: -11%;
+}
+.services {
+  margin-top: 32px;
+  margin-right: -29px;
+}
+.about {
+  margin-left: 297px;
+  margin-top: -34px;
+  text-align: center;
+  -ms-flex-order: -1;
+  order: -1;
+}
+.img-position {
+  margin-top: 12%;
+}
+img {
+  position: relative;
+    width: 195px;
+}
+.social-icons {
+  margin-top: 27px;
+  text-align: center;
+}
+.youtube, .facebook{
+  margin-left: 108px;
+}
+img.youtube-image {
+  width: 197px;
+    height: 50px;
+    position: relative;
+}
+img.facebook-image {
+  width: 197px;
+  height: 50px;
+  position: relative;
+  margin-top: 10px;
+}
+.extra-text {
+  text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.edumonk {
+  text-align: center;
+    font-size: 82px;
+    color: white;
+}
+}
+ @media (max-width:420px){
+  body{
+    margin-top: 130px;
+  }
+  .btn-group>.btn:first-child {
+    margin-left: 0;
+    font-size: 13px;
+    width: 115px;
+    height: 45px;
+}
+  .activites {
+    margin-right: 93px;
+    margin-top: 23%;
+}
+  .partner {
+    text-align: center;
+    margin-left: 103%;
+    margin-top: -20%;
+}
+.work {
+  -ms-flex-order: inherit;
+  order: inherit;
+  margin-left: 103%;
+  margin-top: -19%;
+}
+.services {
+  margin-top: 26px;
+  margin-right: 105px;
+}
+.about {
+  margin-left: 137px;
+  margin-top: -34px;
+  text-align: center;
+  -ms-flex-order: -1;
+  order: -1;
+}
+.img-position {
+  margin-top: 12%;
+}
+img {
+  position: relative;
+    width: 195px;
+}
+.social-icons {
+  margin-top: 27px;
+  text-align: center;
+}
+.youtube, .facebook{
+  margin-left: 15px;
+}
+img.youtube-image {
+  width: 197px;
+    height: 50px;
+    position: relative;
+}
+img.facebook-image {
+  width: 197px;
+  height: 50px;
+  position: relative;
+  margin-top: 10px;
+}
+.extra-text {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+.edumonk {
+  text-align: center;
+    font-size: 42px;
+    color: white;
+}
+} 
+@media (max-width:380px){
+  body{
+    margin-top: 130px;
+  }
+  .btn-group>.btn:first-child {
+    margin-left: 0;
+    font-size: 13px;
+    width: 106px;
+    height: 45px;
+}
+  .activites {
+    margin-right: 104px;
+    margin-top: 23%;
+}
+.partner {
+  text-align: center;
+    margin-left: 107%;
+    margin-top: -20%;
+}
+.work {
+  order: inherit;
+  margin-left: 107%;
+  margin-top: -22%;
+}
+.services {
+  margin-top: 26px;
+  margin-right: 112px;
+}
+.about {
+  margin-left: 109px;
+    margin-top: -34px;
+    text-align: center;
+    order: -1;
+}
+/* .img-position {
+  margin-top: 12%;
+}
+img {
+  position: relative;
+    width: 195px;
+}
+.social-icons {
+  margin-top: 27px;
+  text-align: center;
+}
+.youtube, .facebook{
+  margin-left: 15px;
+}
+img.youtube-image {
+  width: 197px;
+    height: 50px;
+    position: relative;
+}
+img.facebook-image {
+  width: 197px;
+  height: 50px;
+  position: relative;
+  margin-top: 10px;
+}
+.extra-text {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+.edumonk {
+  text-align: center;
+    font-size: 42px;
+    color: white;
+} */
+}
+
+
+@media (max-width:330px){
+  body{
+    margin-top:-150px;
+  }
+  .btn-group>.btn:first-child {
+    margin-left: 0;
+    font-size: 10px;
+    width: 86px;
+    height:35px;
+}
+  .activites {
+    margin-right: 126px;
+    margin-top: 11%;
+}
+.partner {
+  text-align: center;
+  /* padding-left: 14px; */
+  margin-left: 103%;
+  margin-top: -13%;
+}
+.work {
+  -ms-flex-order: inherit;
+  order: inherit;
+  margin-left: 103%;
+  margin-top: -13%;
+}
+.services {
+  margin-top: 32px;
+  margin-right: 126px;
+}
+.about {
+  margin-left: 90px;
+  margin-top: -31px;
+  text-align: center;
+  -ms-flex-order: -1;
+  order: -1;
+  /* width: 109px; */
+  /* font-size: 26px; */
+}
+.img-position {
+  margin-top: 80%;
+}
+img {
+  position: relative;
+  width: 184px;
+  text-align: center;
+  margin-left: 0px;
+}
+.social-icons {
+  margin-top: 16px;
+}
+.youtube, .facebook{
+  margin-left: 0px;
+}
+img.youtube-image {
+  height: 65px;
+}
+img.facebook-image {
+  height: 65px;
+  margin-top: 10px;
+}
+.extra-text {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+.edumonk {
+  text-align: center;
+  font-size: 45px;
+  color: white;
+}
+}
